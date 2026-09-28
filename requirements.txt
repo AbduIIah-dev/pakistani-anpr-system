@@ -1,5 +1,7 @@
 ultralytics
-easyocr
-opencv-python
+paddleocr
+opencv-python-headless
+numpy
 pandas
 psycopg2-binary
+streamlit
