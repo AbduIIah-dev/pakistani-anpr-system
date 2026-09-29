@@ -18,7 +18,7 @@ from paddleocr import PaddleOCR
 logging.getLogger("ppocr").setLevel(logging.ERROR)
 
 class ANPRProcessor:
-    def __init__(self, model_path="weights/fine_tune_best_plate.pt", output_dir="outputs/cropped_plates"):
+    def __init__(self, model_path="fine_tune_best_plate.pt", output_dir="outputs/cropped_plates"):
         print("[INFO] Loading YOLO Model & ANPR Engine for Pakistani Plates...")
         self.model = YOLO(model_path)
         
