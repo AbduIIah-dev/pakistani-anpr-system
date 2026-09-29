@@ -1,4 +1,5 @@
 ultralytics
+paddlepaddle
 paddleocr==2.7.3
 opencv-python-headless
 numpy
